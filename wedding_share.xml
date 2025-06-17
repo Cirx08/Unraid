@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Container version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://raw.githubusercontent.com/cirx08/Unraid/main/template_schema.xsd">
+<Container version="2">
     <Name>WeddingShare</Name>
     <Overview>
         WeddingShare is a very basic site with only one goal. It provides you and your guests a way to share memories of and leading up to the big day. 
