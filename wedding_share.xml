@@ -10,6 +10,10 @@
         You are not limited to a single gallery. You can generate multiple galleries all with their own sharable links. At this stage galleries are a bit unsecure, meaning anyone with the link has access to view and share images so I recommend keeping your share links private. To combat strangers gaining access to your galleries you can provide a secret key during setup but be advised this is a deterrent to make guessing Urls slightly harder and not an actual security catch all.
     </Description>
     <Changes>
+        # Release 1.6.8.2
+        Updated Italian translations based on community feedback.
+        
+        # Release 1.6.8.1
         Added initial release supporting v1.6.8.1
     </Changes>
     <Icon>https://raw.githubusercontent.com/Cirx08/WeddingShare/master/logo.png</Icon>
