@@ -38,10 +38,10 @@
         <Tag>latest</Tag>
         <TagDescription>Latest stable release</TagDescription>
     </Branch>
-    <Screenshot>https://raw.githubusercontent.com/Cirx08/WeddingShare/main/screenshots/Homepage.png</Screenshot>
-    <Screenshot>https://raw.githubusercontent.com/Cirx08/WeddingShare/main/screenshots/Gallery.png</Screenshot>
-    <Screenshot>https://raw.githubusercontent.com/Cirx08/WeddingShare/main/screenshots/Homepage-Mobile.png</Screenshot>
-    <Screenshot>https://raw.githubusercontent.com/Cirx08/WeddingShare/main/screenshots/Gallery-Mobile.png</Screenshot>
+    <Screenshot>https://cdn.jsdelivr.net/gh/Cirx08/Unraid@main/screenshots/screenshot-1.jpg</Screenshot>
+    <Screenshot>https://cdn.jsdelivr.net/gh/Cirx08/Unraid@main/screenshots/screenshot-2.jpg</Screenshot>
+    <Screenshot>https://cdn.jsdelivr.net/gh/Cirx08/Unraid@main/screenshots/screenshot-3.jpg</Screenshot>
+    <Screenshot>https://cdn.jsdelivr.net/gh/Cirx08/Unraid@main/screenshots/screenshot-4.jpg</Screenshot>
     <WebUI>http://[IP]:[PORT:5000]/</WebUI>
     <Networking>
       <Mode>bridge</Mode>
