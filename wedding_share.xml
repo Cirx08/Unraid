@@ -101,6 +101,16 @@
         <Value>admin</Value>
         <Mode/>
       </Variable>
+      <Variable>
+        <Name>ENCRYPTION_KEY</Name>
+        <Value>ChangeMe</Value>
+        <Mode/>
+      </Variable>
+      <Variable>
+        <Name>ENCRYPTION_SALT</Name>
+        <Value>ChangeMe</Value>
+        <Mode/>
+      </Variable>
     </Environment>
     <Config Name="Port" Target="5000" Default="5000" Mode="tcp" Description="Port used to connect to the web UI" Type="Port" Display="always-hide" Required="false" Mask="false">5000</Config>
     <Config Name="Title" Target="TITLE" Default="WeddingShare" Description="Application title to appear in headers" Type="Variable" Display="always-hide" Required="false" Mask="false">WeddingShare</Config>
@@ -108,6 +118,8 @@
     <Config Name="Single Gallery Mode" Target="SINGLE_GALLERY_MODE" Default="false" Description="Should this instance host a single gallery instance. Set to false for multi-gallery instances" Type="Variable" Display="always-hide" Required="false" Mask="false">false</Config>
     <Config Name="Owner Username" Target="ACCOUNT_OWNER_USERNAME" Default="admin" Description="The username of the primary owner account" Type="Variable" Display="always-hide" Required="false" Mask="false">admin</Config>
     <Config Name="Owner Password" Target="ACCOUNT_OWNER_PASSWORD" Default="admin" Description="The password of the primary owner account" Type="Variable" Display="always-hide" Required="false" Mask="true">admin</Config>
+    <Config Name="Encryption Key" Target="ENCRYPTION_KEY" Default="ChangeMe" Description="The key used to encrypt data" Type="Variable" Display="always-hide" Required="false" Mask="true">ChangeMe</Config>
+    <Config Name="Encryption Salt" Target="ENCRYPTION_SALT" Default="ChangeMe" Description="The salt used to randomize the encryption" Type="Variable" Display="always-hide" Required="false" Mask="true">ChangeMe</Config>
     <Config Name="Config Path" Target="/app/config" Mode="rw" Default="/mnt/user/appdata/WeddingShare/config" Description="Path to configuration related data" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/WeddingShare/config</Config>
     <Config Name="Uploads Path" Target="/app/wwwroot/uploads" Mode="rw" Default="/mnt/user/appdata/WeddingShare/uploads" Description="Path to gallery images" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/WeddingShare/uploads</Config>
     <Config Name="Thumbnails Path" Target="/app/wwwroot/thumbnails" Mode="rw" Default="/mnt/user/appdata/WeddingShare/thumbnails" Description="Path to image thumbnails" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/WeddingShare/thumbnails</Config>
