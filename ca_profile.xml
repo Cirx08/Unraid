@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-    <Icon>https://raw.githubusercontent.com/Cirx08/WeddingShare/master/logo.png</Icon>
+    <Icon>https://raw.githubusercontent.com/Memtly/Memtly.Assets/master/Logos/Community/Memtly.png</Icon>
     <Profile>
         Software developer by day, software developer by night...
     </Profile>
     <DonateText>BuyMeACoffee</DonateText>
-    <DonateLink>https://buymeacoffee.com/cirx08</DonateLink>
-    <WebPage>https://github.com/Cirx08</WebPage>
+    <DonateLink>https://buymeacoffee.com/memtly</DonateLink>
+    <WebPage>https://github.com/Memtly</WebPage>
 </Maintainer>
